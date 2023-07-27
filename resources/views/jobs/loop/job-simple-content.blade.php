@@ -1,3 +1,7 @@
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 {{-- <p class="fw-bold">{{ $job->name }}</p> --}}
 <div class="row ">
     {{-- <div class="col-12 col-md-6 mb-mobi">
@@ -141,8 +145,10 @@
                                 <div class="items" style="display:flex; padding-top:5px;padding-left:5px;">
                                     <img src="{{ asset('viewsCustom/assets/images/warning.svg') }}" width:18.3px height:15.8px style="margin-bottom:25px;"/>
                                     <p class="fs16" style="color: #EB3131;font-style: normal;font-weight: 600;line-height: normal;padding-left:10px;">Lưu ý đơn hàng</p>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="border: none; position: absolute;right: 17px;top: 22px;"><span aria-hidden="true"><img src="{{ asset('viewsCustom/assets/images/clone.svg') }}" ></span> </button>
                                 </div>
                             </div>
+                            
             <div class="modal-body" style="display:flex;">                            
                 <div class="body-text" style=" width: 100%;">                 
                     <ul class="items fs12" style="list-style-type: disc;z-index:999;">	
@@ -182,7 +188,7 @@
                                     <div class="fs15"style="color: #D0011B;font-style: normal;font-weight: 400;line-height: normal;padding-left:8px;">4.5</div>
                                     <div class="fs15" style="color: #D0011B;font-style: normal;font-weight: 400;line-height: normal;">(25,5k đánh giá)</div>
                                 </div>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"  style="border: none;"><span aria-hidden="true"><img src="{{ asset('viewsCustom/assets/images/clone.svg') }}" ></span> </button>
                             </div>
             <div class="modal-body" style="display:flex;">
                 <div class="body-title" style="padding-right:10%;">
@@ -729,6 +735,3 @@
     }
 
 </style>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
