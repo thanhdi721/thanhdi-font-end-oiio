@@ -546,14 +546,14 @@
             top: 10%;
         }
     }
-    @media (max-width: 540px){
+ @media (max-width: 660px){
 
 .index-mobile{
- width:33.75rem;
+ width:41.2rem;
 }
 .card{
      margin-left:12px;
-     width: 33.75rem;
+     width: 41.2rem;
  }
  .mobile-wage{
      padding-left:40%;
@@ -567,16 +567,45 @@
  .header-right-pp{
      padding-left:20px;
  }
- .see-more{
-     top:20px;
-     right:10px;
-     position: absolute;
- }
- .modal-dialog{
-     left: 10%;
+ .modal-content {
+ margin-left:-7px;
+ width: 550px !important;
+}
+ .modal-dialog{ 
+     left:0px;       
      top: 10%;
  }
 }
+    @media (max-width: 540px){
+
+       .index-mobile{
+        width:33.75rem;
+       }
+       .card{
+            margin-left:12px;
+            width: 33.75rem;
+        }
+        .mobile-wage{
+            padding-left:40%;
+        }
+        .btn-receive-application-mobile{
+            margin-left:45%;
+        }
+        .body-content .items{
+        margin-bottom:13px;
+        }
+        .header-right-pp{
+            padding-left:20px;
+        }
+        .modal-content {
+        margin-left:-7px;
+        width: 550px !important;
+     }
+        .modal-dialog{ 
+            left:0px;       
+            top: 10%;
+        }
+    }
     @media (max-width: 414px){
        .index-mobile{
             width:26rem;
