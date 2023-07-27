@@ -527,7 +527,7 @@
         width:48rem;
        }
        .card{
-            margin-left:12px;
+        
             width: 48rem;
         }
         .mobile-wage{
@@ -563,7 +563,6 @@
          width:41.2rem;
 }
     .card{
-        margin-left:12px;
        width: 41.2rem;
  }
     .mobile-wage{
@@ -594,7 +593,6 @@
         width:33.75rem;
        }
        .card{
-            margin-left:12px;
             width: 33.75rem;
         }
         .mobile-wage{
@@ -625,7 +623,6 @@
  width:28.75rem;
 }
 .card{
-     margin-left:12px;
      width: 28.75rem;
  }
  .mobile-wage{
@@ -645,7 +642,6 @@
             width:26rem;
        }
        .card{
-            margin-left:12px;
             width: 26rem;
         }
         .mobile-wage{
@@ -679,7 +675,6 @@
             width:24.5rem;
        }
        .card{
-            margin-left:12px;
             width: 24.5rem;
         }
         .mobile-wage{
@@ -712,7 +707,6 @@
             width:23.5rem;
        }
        .card{
-            margin-left:12px;
             width: 23.5rem;
         }
 
