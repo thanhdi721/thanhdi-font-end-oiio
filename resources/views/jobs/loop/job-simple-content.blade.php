@@ -157,7 +157,7 @@
                             <li style="margin-bottom:0px !important;">	• Shop sẽ gửi ảnh, video sản phẩm và hướng dẫn đánh giá cho đơn hàng</li>
                             <li style="margin-bottom:0px !important;">	• Yêu cầu tài khoản đặt là tài khoản hạng vàng đối với Shopee, đối với các nền tảng khác chỉ cần có avatar và tên người dùng thật</li>
                             <li style="margin-bottom:0px !important;">	• Địa chỉ lên đơn là Hà Nội</li>
-                            <li style="padding-top:5px;color: #000;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;"><img src="{{ asset('viewsCustom/assets/images/info-circle.svg') }}" width:18.3px height:15.8px style="margin-bottom:5px;margin-right:8px;"/>Nếu bạn tiếp tục, bạn phải tuân thủ theo chính sách của chúng tôi.</li>
+                            <li style="padding-top:5px;color: #000;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;"><input type="checkbox" class="checkbox" required=""  style="margin-bottom:5px;margin-right:8px;"/>Nếu bạn tiếp tục, bạn phải tuân thủ theo chính sách của chúng tôi.</li>
                     </ul>
                     <div class="items" style="padding-top:17px;display:flex;padding-left:100px;">
                         <a href="#"><button type="button" class="btn btn-secondary fs14" data-dismiss="modal" style="border-radius: 5px;border: 1.5px solid #A6A4A4;background:none;color: #A6A4A4;font-style: normal;font-weight: 700;line-height: normal;height:32px;width:65px;">Hủy</button></a>

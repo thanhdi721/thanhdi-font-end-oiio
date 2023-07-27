@@ -4,7 +4,7 @@
             <x-form :action="route('job.update_history_proccess')" type="put" style="position: relative;" :validate="true">
                 <x-input type="hidden" name="id" :value="$job->id" />
                 <div class="modal-header">
-                    <h5 class="modal-title" id="my-modal-title">{{ __('Sửa thông tin đơn đặc') }}</h5>
+                    <h5 class="modal-title" id="my-modal-title">{{ __('Sửa thông tin đơn đặt') }}</h5>
                 </div>
                 <div class="modal-body">
                         <x-input type="hidden" name="id" :value="$job->id" />
