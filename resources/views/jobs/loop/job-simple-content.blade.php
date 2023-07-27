@@ -613,6 +613,27 @@
             top: 10%;
         }
     }
+    @media (max-width: 460px){
+
+.index-mobile{
+ width:28.75rem;
+}
+.card{
+     margin-left:12px;
+     width: 28.75rem;
+ }
+ .mobile-wage{
+     padding-left:35%;
+ }
+ .btn-receive-application-mobile{
+     margin-left:40%;
+ }
+ .modal-content {
+ margin-left:-7px;
+ width: 460px !important;
+}
+
+}
     @media (max-width: 414px){
        .index-mobile{
             width:26rem;
