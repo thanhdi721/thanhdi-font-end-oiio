@@ -90,20 +90,20 @@
                             
                         </div>                           
                     </div>
-                    <div class="header-right-pp" style="display:flex;width:220px;padding-top:10px;">
+                    <div class="header-right-pp" style="display:flex;padding-top:10px;">
                                 <div ><img src="{{ asset('viewsCustom/assets/images/Vector.svg') }}" width:15px height:15px style="margin-bottom:10px;"/></div>
                                 <div class="fs12" style="color: #D0011B;font-style: normal;font-weight: 400;line-height: normal;padding-left:8px;">4.5</div>
                                 <div class="fs12" style="color: #D0011B;font-style: normal;font-weight: 400;line-height: normal;padding-left:3px;">(25,5k đánh giá)</div>
                     </div>
-                    <div class="see-more" style="display:flex;"data-toggle="modal" data-target="#exampleModalMobile" >
+                    <!-- <div class="see-more" style="display:flex;"data-toggle="modal" data-target="#exampleModalMobile" >
                         <h3 class="fs13" style="color: #A6A4A4;font-style: normal;font-weight: 400;line-height: normal;width:60px;"  >xem thêm</h3><img src="{{ asset('viewsCustom/assets/images/popout.svg') }}"  style="padding-left:5px;width:20px;height:20px;margin-top:-2px;"/>                    
-                    </div>
+                    </div> -->
             </div>            
         </div>
         <div class="mobile-wage" style="padding-top:12px;">
             <p class="fs13 font-lato"style="color: #269300;font-style: normal;font-weight: 800;line-height: normal;border-radius: 5px;border: 1px solid #269300;height: 40px;text-align:center;padding:12px;align-item:center;width:168px;">Tiền công: 14. 500 đ</p>
         </div>
-        <div class="mobile-modal-body" style="display:flex;padding-left: 10px;padding-right: 10px;">
+        <div class="mobile-modal-body" style="display:flex;padding-left: 10px;padding-right: 10px;"data-toggle="modal" data-target="#exampleModalMobile">
                 <div class="body-title" style="width:150px;">
                     <div class="items">Đơn Seeding</div>
                     <div class="items">Trạng thái</div>
@@ -534,46 +534,52 @@
         margin-bottom:13px;
         }
         .header-right-pp{
-            padding-left:70px;
+            position: absolute;
+            right:20px;
         }
         .see-more{
             top:20px;
             right:10px;
             position: absolute;
         }
+        .modal-content {
+        margin-left:-7px;
+        width: 600px !important;
+}
         .modal-dialog{
-            left: 10%;
+            left: 0px%;
             top: 10%;
         }
     }
  @media (max-width: 660px){
 
-.index-mobile{
- width:41.2rem;
+    .index-mobile{
+         width:41.2rem;
 }
-.card{
-     margin-left:12px;
-     width: 41.2rem;
+    .card{
+        margin-left:12px;
+       width: 41.2rem;
  }
- .mobile-wage{
-     padding-left:40%;
+    .mobile-wage{
+        padding-left:40%;
  }
- .btn-receive-application-mobile{
-     margin-left:45%;
+    .btn-receive-application-mobile{
+         margin-left:45%;
  }
- .body-content .items{
- margin-bottom:13px;
+    .body-content .items{
+        margin-bottom:13px;
  }
- .header-right-pp{
-     padding-left:20px;
- }
- .modal-content {
- margin-left:-7px;
- width: 550px !important;
+    .header-right-pp{
+            position: absolute;
+            right:20px;
+        }
+    .modal-content {
+        margin-left:-7px;
+        width: 550px !important;
 }
- .modal-dialog{ 
-     left:0px;       
-     top: 10%;
+    .modal-dialog{ 
+        left:0px;       
+        top: 10%;
  }
 }
     @media (max-width: 540px){
@@ -595,7 +601,8 @@
         margin-bottom:13px;
         }
         .header-right-pp{
-            padding-left:20px;
+            position: absolute;
+            right:20px;
         }
         .modal-content {
         margin-left:-7px;
@@ -621,7 +628,8 @@
             margin-left:35%;
         }
         .header-right-pp{
-            padding-left:0px;
+            position: absolute;
+            right:20px;
         }
         .see-more{
             top:45px;
@@ -654,7 +662,8 @@
             margin-left:35%;
         }
         .header-right-pp{
-            padding-left:0px;
+            position: absolute;
+            right:20px;
         }
         .see-more{
             top:45px;
